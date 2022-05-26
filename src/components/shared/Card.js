@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 function Card({ children, reverse }) {
-  console.log(children)
   return (
     <div className={`card ${reverse && 'reverse'}`}>
       {children}

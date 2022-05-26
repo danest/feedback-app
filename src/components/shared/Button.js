@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 
 function Button({ children, version, type, isDisabled }) {
-  console.log(children)
-
   return (
     <button type={type} disabled={isDisabled} className={`btn btn-${version}`}>
       {children}
